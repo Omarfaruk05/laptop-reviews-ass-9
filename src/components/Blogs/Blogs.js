@@ -11,7 +11,7 @@ const Blogs = () => {
                 <h1 className='text-4xl my-4'>2. What is semantic tag?</h1>
                 <p className='text-lg'> <span className='text-red-400 mr-2'>Answer:</span> Semantic tags are that type of elements which are clearly describe its meaning to both the browser and tha developer. In HTML there are some semantic elements that be used to define different parts of a web page . </p>
                 <ol className='text-blue-900'>
-                    <li> article </li>
+                    <li>article</li>
                     <li>aside</li>
                     <li>footer</li>
                     <li>main</li>
