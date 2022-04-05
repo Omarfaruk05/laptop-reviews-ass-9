@@ -3,42 +3,42 @@
        "id":1,
         "name":"Rasel Hassan",
         "comment":"This laptp's fearur is good. Laptop look good for slim design",
-        "ratting":4,
-        "photo":""
+        "rating":4,
+        "photo":"photos/rasel.jpg"
     },
     {
         "id":2,
         "name":"Nymut Khan Tonmoy",
         "comment":"Laptop look good for it's slim design. But over priced.",
-        "ratting":3.5,
-        "photo":""
+        "rating":3.5,
+        "photo":"photos/tonmoy.jpg"
     },
     {
         "id":3,
         "name":"Shariful Islam",
         "comment":"I love apple products. This leatest parduct configeration is perfect for a content creator.",
-        "ratting":5,
-        "photo":""
+        "rating":5,
+        "photo":"photos/shorif.jpg"
     },
     {
         "id":4,
         "name":"Abul Hasnat Hasib",
         "comment":"I am useing this laptop for my office. It works very smoothly. ",
-        "ratting":5,
-        "photo":""
+        "rating":5,
+        "photo":"photos/hasib.jpg"
     },
     {
         "id":5,
         "name":"Hasibul Hassan Emon",
         "comment":"My father bought this laptop. It looks very cool.",
-        "ratting":4,
-        "photo":""
+        "rating":4,
+        "photo":"photos/emon.jpg"
     },
     {
         "id":6,
         "name":"Md. Saiful Islam",
         "comment":"I bought this laptop. This laptop's screen is very good. Also keyboard and mouse are really comfortable.",
-        "ratting":4.5,
-        "photo":""
+        "rating":4.5,
+        "photo":"photos/saiful.jpg"
     }
 ]

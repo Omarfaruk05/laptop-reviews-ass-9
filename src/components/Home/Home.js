@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import useReviews from '../../hooks/useReviews';
 import Review from '../Review/Review';
 
@@ -6,7 +7,7 @@ const Home = () => {
     const [reviews, setReviews] = useReviews();
     const slicedReviews  = reviews.slice(0, 3);
     return (
-        <div>
+        <div className='my-4'>
             <div className='mx-8 lg:mx-24  mt-8 md:24 lg:mt-36 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 items-center text-gray-700'>
                 <div>
                     <h1 className='text-6xl font-bold'><span className='text-blue-600'>MacBook Pro</span> (16-inch, 2021)</h1>
@@ -17,10 +18,16 @@ const Home = () => {
                     <img src="photos/mackbook.png" alt="" />
                 </div>
             </div>
-            <div  className='m-8 grid gap-8 grid-cols-1 md:grid-cols-3 justify-items-center items-center'>
-                {
-                   slicedReviews.map(review => <Review key={review.id} review={review}></Review>) 
-                }
+            <div>
+                <h1 className='flex justify-center text-3xl font-bold'>Customars Reviews({slicedReviews.length})</h1>
+                <div className='m-8 mt-8 lg:mx-96 md:mx-24  grid gap-8 md:gap-8 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-items-center items-center'>
+                    {
+                    slicedReviews.map(review => <Review key={review.id} review={review}></Review>) 
+                    }
+                </div>
+                <div className='flex justify-center'>
+                <Link className='font-bold text-xl py-2 px-8 text-center bg-blue-100 text-blue-900 rounded-md mt-8' to='/reviews'>SEE MORE</Link>
+                </div>
             </div>
         </div>
     );
