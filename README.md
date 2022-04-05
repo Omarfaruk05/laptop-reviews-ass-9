@@ -1,6 +1,6 @@
 # Laptop review website
 
-## [live website link](https://resplendent-platypus-e7fb0a.netlify.app/)
+## live website link:[Laptop review website](https://resplendent-platypus-e7fb0a.netlify.app/)
 
 - In this site you can see active link by using custom link.
 - In home page you can see laptops photo and detaisl. Then you see customars three review.
